@@ -60,7 +60,7 @@ This project creates a comprehensive digital presence for Engineering College wi
 
 ## 🚀 Live Deployment
 
-**Live URL:** [https://yourusername.github.io/engineering-college](https://yourusername.github.io/engineering-college)
+**Live URL:** [https://nurkamila.github.io/midterm-engineering-college-1000002909/](https://nurkamila.github.io/midterm-engineering-college-1000002909/)
 
 ### How to Navigate the Site
 1. Start at the Home page for an overview
