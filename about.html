@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programs - Engineering College</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <strong>Engineering College</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link active" href="about.html">Programs</a></li>
+                <li class="nav-item"><a class="nav-link" href="admissions.html">Admissions</a></li>
+                <li class="nav-item"><a class="nav-link" href="student-life.html">Student Life</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link btn btn-primary text-white ms-2" href="registration.html">Apply Now</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<main class="container mt-5 pt-5">
+    <div class="row mb-5">
+        <div class="col">
+            <h1 class="display-4 fw-bold">Our Engineering Programs</h1>
+            <p class="lead">Comprehensive engineering education designed for tomorrow's challenges</p>
+        </div>
+    </div>
+
+    <!-- Programs Grid -->
+    <div class="row g-4">
+        <!-- Computer Engineering -->
+        <div class="col-md-6 col-lg-4">
+            <div class="program-card card h-100">
+                <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                     class="card-img-top"
+                     alt="Computer Engineering laboratory">
+                <div class="card-body">
+                    <h3 class="card-title h5">Computer Engineering</h3>
+                    <p class="card-text">Design and develop computing systems, from microprocessors to supercomputers. Focus on hardware-software integration.</p>
+                    <div class="program-features">
+                        <small class="text-muted">✅ Duration: 4 years</small><br>
+                        <small class="text-muted">✅ Credits: 128</small><br>
+                        <small class="text-muted">✅ Labs: 8 specialized</small>
+                    </div>
+                    <div class="mt-3">
+                        <button class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#computerModal">
+                            View Details →
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mechanical Engineering -->
+        <div class="col-md-6 col-lg-4">
+            <div class="program-card card h-100">
+                <img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                     class="card-img-top"
+                     alt="Mechanical Engineering workshop">
+                <div class="card-body">
+                    <h3 class="card-title h5">Mechanical Engineering</h3>
+                    <p class="card-text">Master the design, analysis, and manufacturing of mechanical systems and thermal devices.</p>
+                    <div class="program-features">
+                        <small class="text-muted">✅ Duration: 4 years</small><br>
+                        <small class="text-muted">✅ Credits: 130</small><br>
+                        <small class="text-muted">✅ Labs: 6 specialized</small>
+                    </div>
+                    <div class="mt-3">
+                        <button class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#mechanicalModal">
+                            View Details →
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Electrical Engineering -->
+        <div class="col-md-6 col-lg-4">
+            <div class="program-card card h-100">
+                <img src="assets/images/electric.jpg"
+                     class="card-img-top"
+                     alt="Electrical Engineering equipment">
+                <div class="card-body">
+                    <h3 class="card-title h5">Electrical Engineering</h3>
+                    <p class="card-text">Explore power systems, electronics, control systems, and telecommunications technologies.</p>
+                    <div class="program-features">
+                        <small class="text-muted">✅ Duration: 4 years</small><br>
+                        <small class="text-muted">✅ Credits: 132</small><br>
+                        <small class="text-muted">✅ Labs: 7 specialized</small>
+                    </div>
+                    <div class="mt-3">
+                        <button class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#electricalModal">
+                            View Details →
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Civil Engineering -->
+        <div class="col-md-6 col-lg-4">
+            <div class="program-card card h-100">
+                <img src="assets/images/civil.jpg"
+                     class="card-img-top"
+                     alt="Civil Engineering construction site">
+                <div class="card-body">
+                    <h3 class="card-title h5">Civil Engineering</h3>
+                    <p class="card-text">Design and construct infrastructure projects including buildings, bridges, and transportation systems.</p>
+                    <div class="program-features">
+                        <small class="text-muted">✅ Duration: 4 years</small><br>
+                        <small class="text-muted">✅ Credits: 129</small><br>
+                        <small class="text-muted">✅ Labs: 5 specialized</small>
+                    </div>
+                    <div class="mt-3">
+                        <button class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#civilModal">
+                            View Details →
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Chemical Engineering -->
+        <div class="col-md-6 col-lg-4">
+            <div class="program-card card h-100">
+                <img src="assets/images/chemical.jpg"
+                     class="card-img-top"
+                     alt="Chemical Engineering laboratory">
+                <div class="card-body">
+                    <h3 class="card-title h5">Chemical Engineering</h3>
+                    <p class="card-text">Transform raw materials into valuable products through chemical processes and biotechnology.</p>
+                    <div class="program-features">
+                        <small class="text-muted">✅ Duration: 4 years</small><br>
+                        <small class="text-muted">✅ Credits: 131</small><br>
+                        <small class="text-muted">✅ Labs: 6 specialized</small>
+                    </div>
+                    <div class="mt-3">
+                        <button class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#chemicalModal">
+                            View Details →
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Biomedical Engineering -->
+        <div class="col-md-6 col-lg-4">
+            <div class="program-card card h-100">
+                <img src="assets/images/biomedical.jpg"
+                     class="card-img-top"
+                     alt="Biomedical Engineering equipment">
+                <div class="card-body">
+                    <h3 class="card-title h5">Biomedical Engineering</h3>
+                    <p class="card-text">Combine engineering principles with medical sciences to develop healthcare technologies.</p>
+                    <div class="program-features">
+                        <small class="text-muted">✅ Duration: 4 years</small><br>
+                        <small class="text-muted">✅ Credits: 127</small><br>
+                        <small class="text-muted">✅ Labs: 4 specialized</small>
+                    </div>
+                    <div class="mt-3">
+                        <button class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#biomedicalModal">
+                            View Details →
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- Computer Engineering Modal -->
+<div class="modal fade" id="computerModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+                <h2 class="modal-title h4">Computer Engineering</h2>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                             alt="Computer Engineering" class="img-fluid rounded mb-3">
+                        <div class="program-quick-info">
+                            <h5 class="h6">Quick Facts</h5>
+                            <ul class="list-unstyled">
+                                <li>📅 <strong>Duration:</strong> 4 years (8 semesters)</li>
+                                <li>🎓 <strong>Credits:</strong> 128 credits</li>
+                                <li>🔬 <strong>Laboratories:</strong> 8 specialized</li>
+                                <li>👥 <strong>Class Size:</strong> 25-30 students</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="h5">Program Overview</h4>
+                        <p>Computer Engineering focuses on the design and development of computing systems, bridging the gap between hardware and software. Students learn to create innovative solutions from microprocessors to supercomputers.</p>
+
+                        <h5 class="h6 mt-4">First Year Courses</h5>
+                        <div class="row">
+                            <div class="col-6">
+                                <ul class="small">
+                                    <li>Introduction to Programming</li>
+                                    <li>Digital Logic Design</li>
+                                    <li>Calculus I & II</li>
+                                    <li>Physics for Engineers</li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <ul class="small">
+                                    <li>Computer Organization</li>
+                                    <li>Discrete Mathematics</li>
+                                    <li>Engineering Drawing</li>
+                                    <li>Technical Communication</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h5 class="h6 mt-4">Program Features</h5>
+                        <div class="d-flex flex-wrap gap-2 mb-3">
+                            <span class="badge bg-primary">Hardware-Software Co-design</span>
+                            <span class="badge bg-primary">Embedded Systems</span>
+                            <span class="badge bg-primary">Computer Architecture</span>
+                            <span class="badge bg-primary">Network Systems</span>
+                            <span class="badge bg-primary">Artificial Intelligence</span>
+                        </div>
+
+                        <h5 class="h6 mt-4">Career Opportunities</h5>
+                        <p class="small">Software Engineer, Hardware Designer, Systems Architect, Embedded Systems Developer, Network Engineer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <a href="registration.html" class="btn btn-primary">Apply Now</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Mechanical Engineering Modal -->
+<div class="modal fade" id="mechanicalModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+                <h2 class="modal-title h4">Mechanical Engineering</h2>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                             alt="Mechanical Engineering" class="img-fluid rounded mb-3">
+                        <div class="program-quick-info">
+                            <h5 class="h6">Quick Facts</h5>
+                            <ul class="list-unstyled">
+                                <li>📅 <strong>Duration:</strong> 4 years (8 semesters)</li>
+                                <li>🎓 <strong>Credits:</strong> 130 credits</li>
+                                <li>🔬 <strong>Laboratories:</strong> 6 specialized</li>
+                                <li>👥 <strong>Class Size:</strong> 20-25 students</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="h5">Program Overview</h4>
+                        <p>Mechanical Engineering involves the design, analysis, manufacturing, and maintenance of mechanical systems. Students work with everything from small components to large machinery and thermal systems.</p>
+
+                        <h5 class="h6 mt-4">First Year Courses</h5>
+                        <div class="row">
+                            <div class="col-6">
+                                <ul class="small">
+                                    <li>Engineering Mechanics</li>
+                                    <li>Thermodynamics</li>
+                                    <li>Materials Science</li>
+                                    <li>Engineering Mathematics</li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <ul class="small">
+                                    <li>Technical Drawing</li>
+                                    <li>Manufacturing Processes</li>
+                                    <li>Fluid Mechanics</li>
+                                    <li>Electrical Fundamentals</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h5 class="h6 mt-4">Program Features</h5>
+                        <div class="d-flex flex-wrap gap-2 mb-3">
+                            <span class="badge bg-primary">CAD/CAM Design</span>
+                            <span class="badge bg-primary">Thermal Systems</span>
+                            <span class="badge bg-primary">Robotics & Automation</span>
+                            <span class="badge bg-primary">Material Science</span>
+                            <span class="badge bg-primary">Energy Systems</span>
+                        </div>
+
+                        <h5 class="h6 mt-4">Career Opportunities</h5>
+                        <p class="small">Mechanical Designer, HVAC Engineer, Automotive Engineer, Manufacturing Engineer, Robotics Engineer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <a href="registration.html" class="btn btn-primary">Apply Now</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Electrical Engineering Modal -->
+<div class="modal fade" id="electricalModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+                <h2 class="modal-title h4">Electrical Engineering</h2>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="assets/images/electric.jpg"
+                             alt="Electrical Engineering" class="img-fluid rounded mb-3">
+                        <div class="program-quick-info">
+                            <h5 class="h6">Quick Facts</h5>
+                            <ul class="list-unstyled">
+                                <li>📅 <strong>Duration:</strong> 4 years (8 semesters)</li>
+                                <li>🎓 <strong>Credits:</strong> 132 credits</li>
+                                <li>🔬 <strong>Laboratories:</strong> 7 specialized</li>
+                                <li>👥 <strong>Class Size:</strong> 22-28 students</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="h5">Program Overview</h4>
+                        <p>Electrical Engineering covers power systems, electronics, control systems, and telecommunications. Students learn to design and implement electrical systems for various applications.</p>
+
+                        <h5 class="h6 mt-4">First Year Courses</h5>
+                        <div class="row">
+                            <div class="col-6">
+                                <ul class="small">
+                                    <li>Circuit Analysis</li>
+                                    <li>Electromagnetic Theory</li>
+                                    <li>Digital Electronics</li>
+                                    <li>Signals and Systems</li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <ul class="small">
+                                    <li>Engineering Mathematics</li>
+                                    <li>Electrical Machines</li>
+                                    <li>Power Systems</li>
+                                    <li>Electronic Devices</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h5 class="h6 mt-4">Program Features</h5>
+                        <div class="d-flex flex-wrap gap-2 mb-3">
+                            <span class="badge bg-primary">Power Generation</span>
+                            <span class="badge bg-primary">Circuit Design</span>
+                            <span class="badge bg-primary">Control Systems</span>
+                            <span class="badge bg-primary">Renewable Energy</span>
+                            <span class="badge bg-primary">Telecommunications</span>
+                        </div>
+
+                        <h5 class="h6 mt-4">Career Opportunities</h5>
+                        <p class="small">Power Systems Engineer, Electronics Designer, Control Systems Engineer, Telecommunications Specialist, Renewable Energy Engineer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <a href="registration.html" class="btn btn-primary">Apply Now</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Civil Engineering Modal -->
+<div class="modal fade" id="civilModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+                <h2 class="modal-title h4">Civil Engineering</h2>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="assets/images/civil.jpg"
+                             alt="Civil Engineering" class="img-fluid rounded mb-3">
+                        <div class="program-quick-info">
+                            <h5 class="h6">Quick Facts</h5>
+                            <ul class="list-unstyled">
+                                <li>📅 <strong>Duration:</strong> 4 years (8 semesters)</li>
+                                <li>🎓 <strong>Credits:</strong> 129 credits</li>
+                                <li>🔬 <strong>Laboratories:</strong> 5 specialized</li>
+                                <li>👥 <strong>Class Size:</strong> 18-24 students</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="h5">Program Overview</h4>
+                        <p>Civil Engineering focuses on the design, construction, and maintenance of infrastructure projects including buildings, bridges, roads, and water supply systems.</p>
+
+                        <h5 class="h6 mt-4">First Year Courses</h5>
+                        <div class="row">
+                            <div class="col-6">
+                                <ul class="small">
+                                    <li>Engineering Mechanics</li>
+                                    <li>Surveying</li>
+                                    <li>Construction Materials</li>
+                                    <li>Structural Analysis</li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <ul class="small">
+                                    <li>Geotechnical Engineering</li>
+                                    <li>Fluid Mechanics</li>
+                                    <li>Engineering Geology</li>
+                                    <li>Transportation Engineering</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h5 class="h6 mt-4">Program Features</h5>
+                        <div class="d-flex flex-wrap gap-2 mb-3">
+                            <span class="badge bg-primary">Structural Design</span>
+                            <span class="badge bg-primary">Construction Management</span>
+                            <span class="badge bg-primary">Environmental Engineering</span>
+                            <span class="badge bg-primary">Geotechnical Engineering</span>
+                            <span class="badge bg-primary">Transportation Systems</span>
+                        </div>
+
+                        <h5 class="h6 mt-4">Career Opportunities</h5>
+                        <p class="small">Structural Engineer, Construction Manager, Transportation Engineer, Environmental Engineer, Urban Planner</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <a href="registration.html" class="btn btn-primary">Apply Now</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Chemical Engineering Modal -->
+<div class="modal fade" id="chemicalModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+                <h2 class="modal-title h4">Chemical Engineering</h2>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="assets/images/chemical.jpg"
+                             alt="Chemical Engineering" class="img-fluid rounded mb-3">
+                        <div class="program-quick-info">
+                            <h5 class="h6">Quick Facts</h5>
+                            <ul class="list-unstyled">
+                                <li>📅 <strong>Duration:</strong> 4 years (8 semesters)</li>
+                                <li>🎓 <strong>Credits:</strong> 131 credits</li>
+                                <li>🔬 <strong>Laboratories:</strong> 6 specialized</li>
+                                <li>👥 <strong>Class Size:</strong> 20-26 students</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="h5">Program Overview</h4>
+                        <p>Chemical Engineering involves transforming raw materials into valuable products through chemical processes, focusing on process design, optimization, and safety.</p>
+
+                        <h5 class="h6 mt-4">First Year Courses</h5>
+                        <div class="row">
+                            <div class="col-6">
+                                <ul class="small">
+                                    <li>Chemical Process Principles</li>
+                                    <li>Organic Chemistry</li>
+                                    <li>Physical Chemistry</li>
+                                    <li>Material and Energy Balances</li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <ul class="small">
+                                    <li>Thermodynamics</li>
+                                    <li>Fluid Mechanics</li>
+                                    <li>Process Calculations</li>
+                                    <li>Engineering Mathematics</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h5 class="h6 mt-4">Program Features</h5>
+                        <div class="d-flex flex-wrap gap-2 mb-3">
+                            <span class="badge bg-primary">Process Design</span>
+                            <span class="badge bg-primary">Biotechnology</span>
+                            <span class="badge bg-primary">Environmental Control</span>
+                            <span class="badge bg-primary">Petroleum Engineering</span>
+                            <span class="badge bg-primary">Pharmaceutical Processes</span>
+                        </div>
+
+                        <h5 class="h6 mt-4">Career Opportunities</h5>
+                        <p class="small">Process Engineer, Plant Manager, Petroleum Engineer, Pharmaceutical Engineer, Environmental Engineer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <a href="registration.html" class="btn btn-primary">Apply Now</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Biomedical Engineering Modal -->
+<div class="modal fade" id="biomedicalModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+                <h2 class="modal-title h4">Biomedical Engineering</h2>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="assets/images/biomedical.jpg"
+                             alt="Biomedical Engineering" class="img-fluid rounded mb-3">
+                        <div class="program-quick-info">
+                            <h5 class="h6">Quick Facts</h5>
+                            <ul class="list-unstyled">
+                                <li>📅 <strong>Duration:</strong> 4 years (8 semesters)</li>
+                                <li>🎓 <strong>Credits:</strong> 127 credits</li>
+                                <li>🔬 <strong>Laboratories:</strong> 4 specialized</li>
+                                <li>👥 <strong>Class Size:</strong> 15-20 students</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="h5">Program Overview</h4>
+                        <p>Biomedical Engineering combines engineering principles with medical sciences to develop technologies and devices for healthcare, including medical imaging, prosthetics, and diagnostic equipment.</p>
+
+                        <h5 class="h6 mt-4">First Year Courses</h5>
+                        <div class="row">
+                            <div class="col-6">
+                                <ul class="small">
+                                    <li>Human Anatomy and Physiology</li>
+                                    <li>Biomechanics</li>
+                                    <li>Biomaterials</li>
+                                    <li>Medical Instrumentation</li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <ul class="small">
+                                    <li>Cell Biology</li>
+                                    <li>Engineering Mathematics</li>
+                                    <li>Signals and Systems</li>
+                                    <li>Biomedical Electronics</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h5 class="h6 mt-4">Program Features</h5>
+                        <div class="d-flex flex-wrap gap-2 mb-3">
+                            <span class="badge bg-primary">Medical Imaging</span>
+                            <span class="badge bg-primary">Prosthetics Design</span>
+                            <span class="badge bg-primary">Biomaterials Development</span>
+                            <span class="badge bg-primary">Clinical Engineering</span>
+                            <span class="badge bg-primary">Rehabilitation Technology</span>
+                        </div>
+
+                        <h5 class="h6 mt-4">Career Opportunities</h5>
+                        <p class="small">Medical Device Engineer, Clinical Engineer, Biomechanics Specialist, Rehabilitation Engineer, Research Scientist</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <a href="registration.html" class="btn btn-primary">Apply Now</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="bg-dark text-white py-4 mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h5>Engineering College</h5>
+                <p>Shaping the engineers of tomorrow through excellence in education and innovation.</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+                <p>&copy; 2024 Engineering College. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

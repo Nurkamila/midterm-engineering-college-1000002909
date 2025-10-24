@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Life - Engineering College</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <strong>Engineering College</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">Programs</a></li>
+                <li class="nav-item"><a class="nav-link" href="admissions.html">Admissions</a></li>
+                <li class="nav-item"><a class="nav-link active" href="student-life.html">Student Life</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link btn btn-primary text-white ms-2" href="registration.html">Apply Now</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<main class="container mt-5 pt-5">
+    <div class="row mb-5">
+        <div class="col">
+            <h1 class="display-4 fw-bold">Student Life & News</h1>
+            <p class="lead">Beyond the classroom: Discover our vibrant campus community</p>
+        </div>
+    </div>
+
+    <!-- News Section -->
+    <section class="mb-5">
+        <h2 class="h3 mb-4">Campus News & Announcements</h2>
+        <div class="row g-4" id="newsGrid">
+            <div class="col-md-6 col-lg-4">
+                <div class="card news-card h-100">
+                    <img src="assets/images/innov.jpg"
+                         class="card-img-top"
+                         alt="Engineering innovation fair">
+                    <div class="card-body">
+                        <span class="badge bg-primary mb-2">Event</span>
+                        <h3 class="card-title h5">Annual Innovation Fair 2024</h3>
+                        <p class="card-text">Join us for our biggest student project showcase featuring cutting-edge engineering solutions.</p>
+                        <small class="text-muted">March 15, 2024</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card news-card h-100">
+                    <img src="assets/images/AI_res.jpg"
+                         class="card-img-top"
+                         alt="New research lab opening">
+                    <div class="card-body">
+                        <span class="badge bg-success mb-2">Announcement</span>
+                        <h3 class="card-title h5">New AI Research Lab Opening</h3>
+                        <p class="card-text">State-of-the-art artificial intelligence laboratory opens this semester with industry partnerships.</p>
+                        <small class="text-muted">February 28, 2024</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card news-card h-100">
+                    <img src="assets/images/robot.jpg"
+                         class="card-img-top"
+                         alt="Student competition winners">
+                    <div class="card-body">
+                        <span class="badge bg-warning mb-2">Achievement</span>
+                        <h3 class="card-title h5">Robotics Team Wins National Competition</h3>
+                        <p class="card-text">Our student robotics team takes first place in the National Engineering Robotics Challenge.</p>
+                        <small class="text-muted">February 15, 2024</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Student Clubs -->
+    <section class="mb-5">
+        <h2 class="h3 mb-4">Student Clubs & Organizations</h2>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="club-card p-4">
+                    <h4 class="h5">IEEE Student Chapter</h4>
+                    <p>Join the world's largest technical professional organization for electrical and electronics engineering.</p>
+                    <button class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#clubModal" data-club="IEEE">Learn More</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="club-card p-4">
+                    <h4 class="h5">Robotics Club</h4>
+                    <p>Design, build, and program robots for competitions and research projects.</p>
+                    <button class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#clubModal" data-club="Robotics">Learn More</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="club-card p-4">
+                    <h4 class="h5">Sustainable Engineering Society</h4>
+                    <p>Focus on green technologies and sustainable engineering practices.</p>
+                    <button class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#clubModal" data-club="Sustainable">Learn More</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="club-card p-4">
+                    <h4 class="h5">Women in Engineering</h4>
+                    <p>Supporting and empowering women pursuing engineering careers.</p>
+                    <button class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#clubModal" data-club="Women">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Campus Events -->
+    <section class="mb-5">
+        <h2 class="h3 mb-4">Upcoming Events</h2>
+        <div class="list-group">
+            <div class="list-group-item">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Industry Career Fair</h5>
+                    <small>March 20, 2024</small>
+                </div>
+                <p class="mb-1">Connect with top engineering firms and tech companies.</p>
+                <small>Main Campus Hall, 10:00 AM - 4:00 PM</small>
+            </div>
+            <div class="list-group-item">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Guest Lecture: AI in Engineering</h5>
+                    <small>March 25, 2024</small>
+                </div>
+                <p class="mb-1">Dr. Sarah Chen from Tech Innovations Inc.</p>
+                <small>Engineering Auditorium, 3:00 PM</small>
+            </div>
+            <div class="list-group-item">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Hackathon 2024</h5>
+                    <small>April 5-7, 2024</small>
+                </div>
+                <p class="mb-1">48-hour coding competition with $10,000 in prizes.</p>
+                <small>Innovation Center</small>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Club Modal -->
+<div class="modal fade" id="clubModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="clubModalTitle">Club Information</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body" id="clubModalBody">
+                <!-- Content loaded by JavaScript -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="bg-dark text-white py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h5>Engineering College</h5>
+                <p>Shaping the engineers of tomorrow through excellence in education and innovation.</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+                <p>&copy; 2024 Engineering College. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
